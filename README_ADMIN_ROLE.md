@@ -1,6 +1,6 @@
 # Admin Role Implementation
 
-This document outlines the changes made to implement admin role functionality in the Guadzefie application.
+This document outlines the changes made to implement admin role functionality in the Erastore application.
 
 ## Database Changes
 

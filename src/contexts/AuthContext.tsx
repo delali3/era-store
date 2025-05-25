@@ -249,7 +249,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       // but we're adding an extra layer of persistence)
       if (session) {
         try {
-          localStorage.setItem('guadzefie.session.backup', JSON.stringify({
+          localStorage.setItem('Erastore.session.backup', JSON.stringify({
             timestamp: new Date().toISOString(),
             userId: session.user.id,
             hasSession: true
@@ -375,7 +375,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       // Then clear all possible storage locations
       try {
         console.log('AuthContext: Clearing localStorage');
-        localStorage.removeItem('guadzefie.session.backup');
+        localStorage.removeItem('Erastore.session.backup');
         localStorage.removeItem('user');
         localStorage.removeItem('sb-itbuxujsotcgexofbrwq-auth-token');
         

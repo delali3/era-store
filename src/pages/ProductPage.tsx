@@ -252,7 +252,7 @@ const ProductPage: React.FC = () => {
       "sku": product.sku || `PRD-${product.id}`,
       "brand": {
         "@type": "Brand",
-        "name": "Guadzefie Farms"
+        "name": "Erastore Farms"
       },
       "offers": {
         "@type": "Offer",
@@ -361,7 +361,7 @@ const ProductPage: React.FC = () => {
           keywords={`${product.name}, ${product.farming_method || 'farming'}, organic produce, ${product.categories?.name || 'farm products'}, fresh harvest`}
           ogType="product"
           ogImage={product.image_url}
-          canonical={`https://guadzefie.com/products/${product.id}`}
+          canonical={`https://Erastore.com/products/${product.id}`}
         />
       )}
       

@@ -80,7 +80,7 @@ const ConsumerLayout: React.FC<ConsumerLayoutProps> = ({ darkMode, toggleDarkMod
             <div className="flex-shrink-0 flex items-center px-4">
               <Link to="/consumer" className="flex items-center">
                 <ShoppingBag className="h-8 w-8 text-green-600" />
-                <span className="ml-2 text-xl font-bold theme-text">Guadzefie</span>
+                <span className="ml-2 text-xl font-bold theme-text">Erastore</span>
               </Link>
             </div>
             <nav className="mt-5 px-2 space-y-1">
@@ -121,7 +121,7 @@ const ConsumerLayout: React.FC<ConsumerLayoutProps> = ({ darkMode, toggleDarkMod
             <div className="flex items-center h-16 flex-shrink-0 px-4 theme-border">
               <Link to="/consumer" className="flex items-center">
                 <ShoppingBag className="h-8 w-8 text-green-600" />
-                <span className="ml-2 text-xl font-bold theme-text">Guadzefie</span>
+                <span className="ml-2 text-xl font-bold theme-text">Erastore</span>
               </Link>
             </div>
             <div className="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">

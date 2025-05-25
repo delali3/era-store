@@ -53,7 +53,7 @@ export default tseslint.config({
 })
 ```
 
-# Guadzefie - Farm to Table E-commerce Platform
+# Erastore - Farm to Table E-commerce Platform
 
 ## Address Management Feature
 
